@@ -1,0 +1,26 @@
+.pagination_list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 2rem;
+  font-weight: 400;
+  font-size: 0.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.pagination_item {
+  width: 40px;
+  font-size: 2rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page_active {
+  background-color: #d93f3f;
+  color: white;
+}
