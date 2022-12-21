@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./styles/pokeCard.css";
+import "./styles/pokecard.css";
 
 const PokeCard = ({ url }) => {
   const [pokemon, setPokemon] = useState();
